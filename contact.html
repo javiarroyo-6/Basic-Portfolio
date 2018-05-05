@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>Javier Arroyo</header>
+    <div class="container">
+        <form action="action_page.php">
+            <label for="firstname"> First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="First Name">
+
+            <label for="lastname">Last name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+
+            <label for="Message">Message</label>
+            <textarea id="Message" name="Message" placeholder="Say something nice" style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+
+        </form>
+    </div>
+    
+</body>
+<style>
+    header {
+        padding: 20px;
+        margin-bottom: 20px;
+        color: #333;
+        background: #ccc;
+    }
+    input[type=text], select, textarea {
+        padding: 20px;
+        border: 1px solid orange;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    
+    }
+    
+    .container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+</style>
+</html>
